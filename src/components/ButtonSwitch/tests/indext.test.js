@@ -1,8 +1,8 @@
 /**
  * Testing ButtonSwitch component
  *
- * Run `jest app/components/core/buttonswitch` to test this
- * Run `jest app/components/core/buttonswitch -u` to update file snapshot
+ * Run `jest app/components/buttonswitch` to test this
+ * Run `jest app/components/buttonswitch -u` to update file snapshot
  *
  */
 import React from 'react';
