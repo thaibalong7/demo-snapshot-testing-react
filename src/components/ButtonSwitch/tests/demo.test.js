@@ -9,9 +9,9 @@ import renderer from 'react-test-renderer';
 
 describe('Testing ButtonSwitch', () => {
     /**
-   * Runs a function before each of the tests in this file runs.
-   * If the function returns a promise or is a generator, Jest waits for that promise to resolve before running the test.
-   */
+     * Runs a function before each of the tests in this file runs.
+     * If the function returns a promise or is a generator, Jest waits for that promise to resolve before running the test.
+     */
     beforeEach(() => {
 
     });
@@ -25,6 +25,7 @@ describe('Testing ButtonSwitch', () => {
     });
 
     it('should true equal true', () => {
+        // Assertion
         expect(true).toEqual(true);
     });
 });
