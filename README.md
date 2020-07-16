@@ -1,0 +1,1 @@
+# demo-snapshot-testing-react
