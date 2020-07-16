@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing ButtonSwitch renders correctly - [checked-false] [disabled-false] 1`] = `
+<div
+  className="button-switch  "
+  onClick={[MockFunction]}
+>
+  <button
+    className="btn btn-sm btn-light"
+    type="button"
+  />
+  <label>
+    OFF
+  </label>
+</div>
+`;
+
+exports[`Testing ButtonSwitch renders correctly - [checked-false] [disabled-true] 1`] = `
+<div
+  className="button-switch  disabled"
+  onClick={[MockFunction]}
+>
+  <button
+    className="btn btn-sm btn-light"
+    type="button"
+  />
+  <label>
+    OFF
+  </label>
+</div>
+`;
+
+exports[`Testing ButtonSwitch renders correctly - [checked-true] [disabled-false] 1`] = `
+<div
+  className="button-switch active "
+  onClick={[MockFunction]}
+>
+  <button
+    className="btn btn-sm btn-success"
+    type="button"
+  />
+  <label>
+    ON
+  </label>
+</div>
+`;
+
+exports[`Testing ButtonSwitch renders correctly - [checked-true] [disabled-true] 1`] = `
+<div
+  className="button-switch active disabled"
+  onClick={[MockFunction]}
+>
+  <button
+    className="btn btn-sm btn-success"
+    type="button"
+  />
+  <label>
+    ON
+  </label>
+</div>
+`;
