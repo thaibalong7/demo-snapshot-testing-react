@@ -4,8 +4,6 @@
  * Run `jest app/components -u` to update file snapshot
  *
  */
-import React from 'react';
-import renderer from 'react-test-renderer';
 
 describe('Testing ButtonSwitch', () => {
     /**
